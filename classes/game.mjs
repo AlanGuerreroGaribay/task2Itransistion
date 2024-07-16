@@ -38,7 +38,7 @@ export class Game {
   showMovesAvailables() {
     console.log("List of allowed moves: ");
     this.movesList.map((move, i) => {
-      console.log(`${i + 1}) ${move}`);
+      console.log(`${i + 1} - ${move}`);
     });
     console.log("0) exit");
     console.log("h) help");
